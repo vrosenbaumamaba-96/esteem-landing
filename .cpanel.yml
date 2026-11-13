@@ -7,3 +7,4 @@ deployment:
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp thank-you.html $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH

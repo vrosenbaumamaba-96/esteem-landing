@@ -17,9 +17,11 @@ a{color:#27464C}a:hover{color:#8A5263}
 details summary{list-style:none;cursor:pointer}
 details summary::-webkit-details-marker{display:none}
 details[open] .plus{transform:rotate(45deg)}
+.hero-bg{background-color:#3B5A60;background-position:center 30%;background-size:cover;background-repeat:no-repeat}
+.hero-bg::before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background:rgba(20,38,42,0.6);z-index:0}
 @media (max-width:760px){.wrap{padding-left:16px;padding-right:16px}.hide-sm{display:none !important}.h1{font-size:34px !important}.h2{font-size:28px !important}}
 </style>
-<style>html{scroll-behavior:smooth}</style>
+<style>html{scroll-behavior:smooth}.hero-bg{background-image:url(https://esteem-academy.com/wp-content/uploads/2022/09/womanwithboldeye.jpg)}</style>
 </head>
 <body>
 <div style="font-family: Nunito, sans-serif; color: #1B1B1B; background: #ffffff; width: 100%;">
@@ -35,7 +37,7 @@ details[open] .plus{transform:rotate(45deg)}
 
 <header style="background: #ffffff; border-bottom: 1px solid #EEE4E6; padding: 16px 0;">
 <div class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
-<div class="ph" style="width: 180px; height: 64px; font-size: 12px;">ESTEEM LOGO<br>(logo.png from client site)</div>
+<a href="#form" style="display: block; line-height: 0;"><img src="images/esteem-logo.png" alt="Esteem Academy of Beauty — Discover Your True Self" width="167" height="75" style="display: block; width: 167px; height: auto;"></a>
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
 <a href="tel:8016893031" style="display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 20px; border: 2px solid #27464C; color: #27464C; font: 700 15px Poppins, sans-serif; text-decoration: none; box-sizing: border-box;">
 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
@@ -45,34 +47,33 @@ details[open] .plus{transform:rotate(45deg)}
 </div>
 </header>
 
-<section id="form" style="background: #FFEFF0; padding: 64px 0 72px;">
-<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center;">
+<section id="form" class="hero-bg" style="position: relative; padding: 96px 0 104px; color: #ffffff;">
+<div class="wrap" style="position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 48px; align-items: center;">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px;">
-<p style="margin: 0; font: 700 14px Poppins, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; color: #8A5263;">Beauty &amp; Cosmetology School · South Ogden, Utah</p>
-<h1 class="h1" style="margin: 0; font: 700 52px/1.1 Poppins, sans-serif; text-transform: uppercase; color: #27464C;">Find Your Craft.<br>Grow Your Confidence.</h1>
+<p style="margin: 0; font: 700 14px Poppins, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; color: #F2C9D2;">Beauty &amp; Cosmetology School · South Ogden, Utah</p>
+<h1 class="h1" style="margin: 0; font: 700 56px/1.1 Poppins, sans-serif; text-transform: uppercase; color: #ffffff; text-shadow: 0 2px 16px rgba(0,0,0,0.25);">Find Your Craft.<br>Grow Your Confidence.</h1>
 <p style="margin: 0; font-size: 19px; line-height: 1.6; max-width: 560px;">Hands-on cosmetology, hair, skin, nail, barbering and lash &amp; brow classes in a small, supportive school that puts the “esteem” in self-esteem.</p>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 17px; font-weight: 600;">
-<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A5263" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Small classes with one-on-one instruction</li>
-<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A5263" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Business skills and weekly life-skills sessions built in</li>
-<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A5263" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Positive, professional support from day one</li>
+<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2C9D2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Small classes with one-on-one instruction</li>
+<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2C9D2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Business skills and weekly life-skills sessions built in</li>
+<li style="display: flex; gap: 12px; align-items: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2C9D2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Positive, professional support from day one</li>
 </ul>
-<div class="ph hide-sm" style="width: 100%; height: 220px;">HERO PHOTO — smiling student styling a guest's hair at a salon station (wide crop, client or stock photo)</div>
 </div>
 
-<div style="flex: 1 1 380px; max-width: 460px; min-width: 0; background: #27464C; color: #ffffff; padding: 36px 32px; box-sizing: border-box; box-shadow: 0 12px 32px rgba(39,70,76,0.25);">
-<h2 style="margin: 0 0 8px; font: 700 26px/1.2 Poppins, sans-serif; text-transform: uppercase; text-align: center;">Start Your Beauty Career</h2>
-<p style="margin: 0 0 24px; font-size: 16px; line-height: 1.5; text-align: center; opacity: 0.92;">Tell us a little about you and our admissions team will reach out with program details, start dates and next steps.</p>
+<div style="flex: 1 1 380px; max-width: 460px; min-width: 0; background: #ffffff; color: #1B1B1B; padding: 36px 32px; box-sizing: border-box; box-shadow: 0 16px 40px rgba(0,0,0,0.3); border-top: 6px solid #BB8391;">
+<h2 style="margin: 0 0 8px; font: 700 26px/1.2 Poppins, sans-serif; text-transform: uppercase; text-align: center; color: #27464C;">Start Your Beauty Career</h2>
+<p style="margin: 0 0 24px; font-size: 16px; line-height: 1.5; text-align: center;">Tell us a little about you and our admissions team will reach out with program details, start dates and next steps.</p>
 <form action="thank-you.html" method="get" style="display: flex; flex-direction: column; gap: 14px;">
 <label style="display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Program of Interest
-<select style="min-height: 48px; padding: 0 12px; border: 0; font: 400 16px Nunito, sans-serif; color: #1B1B1B; background: #ffffff;"><option>Choose One</option><option>Cosmetology/Barbering</option><option>Master Esthetician</option><option>Nail Technology</option><option>Master Barbering/Hair Design</option><option>Eyelash &amp; Eyebrow Technology</option><option>Not Sure Yet</option></select></label>
+<select style="min-height: 48px; padding: 0 12px; border: 1px solid #CDBFC3; font: 400 16px Nunito, sans-serif; color: #1B1B1B; background: #ffffff;"><option>Choose One</option><option>Cosmetology/Barbering</option><option>Master Esthetician</option><option>Nail Technology</option><option>Master Barbering/Hair Design</option><option>Eyelash &amp; Eyebrow Technology</option><option>Not Sure Yet</option></select></label>
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-<label style="flex: 1 1 140px; display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">First Name *<input type="text" placeholder="First Name" style="min-height: 48px; padding: 0 12px; border: 0; font: 400 16px Nunito, sans-serif; box-sizing: border-box; width: 100%;"></label>
-<label style="flex: 1 1 140px; display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Last Name *<input type="text" placeholder="Last Name" style="min-height: 48px; padding: 0 12px; border: 0; font: 400 16px Nunito, sans-serif; box-sizing: border-box; width: 100%;"></label>
+<label style="flex: 1 1 140px; display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">First Name *<input type="text" placeholder="First Name" style="min-height: 48px; padding: 0 12px; border: 1px solid #CDBFC3; font: 400 16px Nunito, sans-serif; box-sizing: border-box; width: 100%;"></label>
+<label style="flex: 1 1 140px; display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Last Name *<input type="text" placeholder="Last Name" style="min-height: 48px; padding: 0 12px; border: 1px solid #CDBFC3; font: 400 16px Nunito, sans-serif; box-sizing: border-box; width: 100%;"></label>
 </div>
-<label style="display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Email *<input type="email" placeholder="Email Address" style="min-height: 48px; padding: 0 12px; border: 0; font: 400 16px Nunito, sans-serif;"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Phone *<input type="tel" placeholder="Phone Number" style="min-height: 48px; padding: 0 12px; border: 0; font: 400 16px Nunito, sans-serif;"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Email *<input type="email" placeholder="Email Address" style="min-height: 48px; padding: 0 12px; border: 1px solid #CDBFC3; font: 400 16px Nunito, sans-serif;"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font: 700 12px Poppins, sans-serif; letter-spacing: 0.06em; text-transform: uppercase;">Phone *<input type="tel" placeholder="Phone Number" style="min-height: 48px; padding: 0 12px; border: 1px solid #CDBFC3; font: 400 16px Nunito, sans-serif;"></label>
 <button type="submit" style="margin-top: 8px; min-height: 54px; border: 0; background: #BB8391; color: #1B1B1B; font: 700 17px Poppins, sans-serif; text-transform: uppercase; letter-spacing: 0.06em; cursor: pointer;">Send Me Info</button>
-<p style="margin: 4px 0 0; font-size: 12px; line-height: 1.5; opacity: 0.85;">By submitting, you agree to be contacted by Esteem Academy of Beauty by phone, text or email about our programs. Consent is not a condition of enrollment. See our <a href="#privacy-policy-url-needed" style="color: #ffffff;">Privacy Policy</a>.</p>
+<p style="margin: 4px 0 0; font-size: 12px; line-height: 1.5; color: #4A4A4A;">By submitting, you agree to be contacted by Esteem Academy of Beauty by phone, text or email about our programs. Consent is not a condition of enrollment. See our <a href="#privacy-policy-url-needed" style="color: #27464C;">Privacy Policy</a>.</p>
 </form>
 </div>
 </div>
@@ -358,11 +359,11 @@ details[open] .plus{transform:rotate(45deg)}
 <section style="background: #ffffff; padding: 48px 0; border-bottom: 1px solid #EEE4E6;">
 <div class="wrap" style="display: flex; flex-direction: column; gap: 24px; align-items: center;">
 <h2 style="margin: 0; font: 700 16px Poppins, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; color: #27464C;">Accreditations &amp; Products</h2>
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;">
-<div class="ph" style="width: 180px; height: 72px; font-size: 12px;">BBB ACCREDITED LOGO</div>
-<div class="ph" style="width: 180px; height: 72px; font-size: 12px;">MATRIX LOGO</div>
-<div class="ph" style="width: 180px; height: 72px; font-size: 12px;">PARTNER LOGO (from client site)</div>
-<div class="ph" style="width: 180px; height: 72px; font-size: 12px;">PARTNER LOGO (from client site)</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 32px 56px;">
+<a href="https://www.bbb.org/us/ut/ogden/profile/beauty-school/esteem-academy-of-beauty-inc-1166-90014349" style="display: block; line-height: 0;"><img src="images/bbb-accredited-logo.png" alt="BBB Accredited Business" width="160" height="65" style="display: block; width: 160px; height: auto;"></a>
+<img src="images/matrix-logo.png" alt="Matrix" width="170" height="66" style="display: block; width: 170px; height: auto;">
+<img src="images/image-skincare-logo.png" alt="IMAGE Skincare" width="96" height="74" style="display: block; width: 96px; height: auto;">
+<img src="images/esteem-e-logo.png" alt="Esteem Academy of Beauty emblem" width="64" height="80" style="display: block; width: 64px; height: auto;">
 </div>
 </div>
 </section>

@@ -4,6 +4,7 @@ Static landing page built from the approved wireframe.
 
 - `index.html` — landing page
 - `thank-you.html` — form confirmation page
+- `images/` — Esteem logo and accreditation/partner logos
 
 Both pages are set to `noindex, nofollow` for staging. Remove that meta tag from each page's `<head>` before launch.
 
@@ -17,7 +18,8 @@ Note: on a private repo, GitHub Pages needs a paid GitHub plan, and the publishe
 
 ## Before launch (dev)
 - Connect the form to info@esteem-academy.com and Prestige CRM. The staging form only redirects to `thank-you.html`.
-- Swap the dashed placeholder boxes for the real logo, photos, partner logos, Google Map embed and Instagram feed.
+- Hero photo is currently loaded from esteem-academy.com (womanwithboldeye.jpg, 1000px wide). Replace with a larger local image before launch.
+- Swap the remaining dashed placeholder boxes (salon photo, Google Map embed, Instagram feed) for the real content.
 - Add the Privacy Policy URL (search for `privacy-policy-url-needed`).
 - Add the sticky mobile bar with Call and Get Info buttons.
 - Remove the `noindex` meta tag.
