@@ -19,7 +19,8 @@ Note: on a private repo, GitHub Pages needs a paid GitHub plan, and the publishe
 ## Before launch (dev)
 - Connect the form to info@esteem-academy.com and Prestige CRM. The staging form only redirects to `thank-you.html`.
 - Hero photo is currently loaded from esteem-academy.com (womanwithboldeye.jpg, 1000px wide). Replace with a larger local image before launch.
-- Swap the remaining dashed placeholder boxes (salon photo, Google Map embed, Instagram feed) for the real content.
+- Salon photo (curlinghair.jpg) is also loaded from esteem-academy.com as a sample. Replace with a real Esteem student photo before launch.
+- Swap the Instagram feed placeholder boxes for the live feed embed.
 - Add the Privacy Policy URL (search for `privacy-policy-url-needed`).
 - Add the sticky mobile bar with Call and Get Info buttons.
 - Remove the `noindex` meta tag.
