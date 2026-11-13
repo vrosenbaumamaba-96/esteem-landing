@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    # Document root for esteemlp.provenlayout.com.
+    # If cPanel shows a different Document Root for this domain, change the path below to match.
+    - export DEPLOYPATH=$HOME/esteemlp.provenlayout.com/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp thank-you.html $DEPLOYPATH
